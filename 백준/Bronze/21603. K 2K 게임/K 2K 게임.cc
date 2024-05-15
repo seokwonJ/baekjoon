@@ -14,8 +14,9 @@ int main()
 		}
 	}
 
+	cout << a.size() << '\n';
+
 	if (a.size() != 0) {
-		cout << a.size() << '\n';
 		for (int i = 0; i < a.size(); i++) {
 			cout << a[i] << ' ';
 		}
