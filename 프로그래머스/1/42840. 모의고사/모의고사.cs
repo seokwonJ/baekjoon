@@ -30,7 +30,6 @@ public class Solution {
             } 
         }
         
-        
         answer = student.ToArray();
         
         return answer;
