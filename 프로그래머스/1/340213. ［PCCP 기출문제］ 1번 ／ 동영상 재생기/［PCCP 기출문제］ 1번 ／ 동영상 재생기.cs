@@ -14,10 +14,7 @@ public class Solution {
                 if(posN - 10 <= 0) {
                     posN = 0;
                 }
-                else if (posN - 10 <= op_startN) {
-                    posN = op_startN;
-                }
-                else if (posN >= op_startN && posN <= op_endN) {
+                else if (posN - 10 >= op_startN && posN - 10 <= op_endN) {
                     posN = op_endN;
                 }
 
