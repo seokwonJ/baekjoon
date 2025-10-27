@@ -3,8 +3,8 @@ using System;
 public class Solution {
     public int solution(string str1, string str2) {
         int answer = 0;
-        if (str1.Contains(str2)) answer = 1;
-        else answer = 2;
+        answer = str1.Contains(str2) == true ? 1 : 2;
+        
         return answer;
     }
 }
